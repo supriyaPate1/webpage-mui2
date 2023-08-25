@@ -1,0 +1,103 @@
+.Nav{
+    display: flex;
+    background-color:white;
+    width: 100%;
+   
+  }
+  .Nav a{
+    text-decoration: none;
+    color:  rgb(18, 180, 192);
+    padding-right:30px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    padding-left: 20px;    
+  }
+  .icon{
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 30px;
+  }
+  .space{
+    width:10%;
+  }
+
+  .Nav a:hover{   
+    color: aqua;
+  }
+  #lgin{
+    border-radius: 10px;
+    background-color:  rgb(18, 180, 192);
+    color: white;
+    border: 1px solid;
+    margin-top: 18px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    cursor: pointer;
+  }
+
+.abv{
+  width: 50%;
+}
+.body{
+    display: flex;
+    width: 90%;
+}
+.body img{
+    width: 100%;
+    height: auto;
+    margin-left: 7%;
+    
+}
+.icon{
+    width: 90%;
+}
+/* .body{
+    
+    width: 80%;
+} */
+#online{
+    font-size: 45px;
+    color:  rgb(18, 180, 192);
+    margin-top: 80px;
+
+}
+#edu{
+    font-size: 30px;
+    margin-top: -30px;
+}
+#learn{
+    border-radius: 10px;
+    background-color:  rgb(18, 180, 192);
+    color: white;
+    border: 1px solid;
+    margin-top: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.text{
+    width:40%;
+    margin-left: 7%;
+
+}
+.text1{
+    width: 60%;
+}
+    
+@media screen and (max-width:700px) {
+    .Nav{
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+  }
+  .divdiv{
+    background-color: rgb(191, 230, 217);
+    padding-top: 10PX;
+    padding-bottom: 70PX;
+  }
